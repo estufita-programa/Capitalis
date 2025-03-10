@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Roman', sans-serif;
+    src: url('../font/HelveticaNeueLTStd-Roman.otf');
+}
+:root{
+    /* BOTONES */
+    --button-primary: #3FE396;
+    /* FONDOS */
+    --background-primary: #EFF2EB;
+    --background-secondary: #3C3E3C;
+    --background-footer: #1A1C1A;
+    --background-form: #CFD2CC;
+    /* TEXTOS */
+    --headling-terciary: #5A5D59;
+    --headling-four: #35B276;
+}
+body{
+    background-color: var(--background-primary);
+    display: grid;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
