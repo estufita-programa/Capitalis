@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="source/css/mobile.css" />
     <link rel="stylesheet" href="source/css/root.css" />
     <link rel="stylesheet" href="source/css/desktop.css" />
+    <link rel="stylesheet" href="source/css/tablet.css">
     <link rel="stylesheet" href="source/css/header-mobile.css" />
     <title>Capitalis Global</title>
   </head>
@@ -39,6 +40,7 @@
       <main>
         <div class="bg">
           <img src="source/img/ISO-L.png" class="mobile-ISO" alt="" />
+          <img src="source/img/ISO (1).png" alt="" class="tablet-ISO">
           <img src="source/img/ISO-L.png" class="desktop-ISO" alt="" />
         </div>
         <div class="main-content flex-column-center">
@@ -60,6 +62,7 @@
         </div>
         <div class="bg">
           <img src="source/img/ISO-R.png" class="desktop-ISO" alt="" />
+          <img src="source/img/ISO.png" class="tablet-ISO" alt="">
         </div>
       </main>
 
@@ -160,7 +163,7 @@
             </div>
             <div class="step-container">
               <div class="card-step flex-f">
-                <img src="source/img/line.png" alt="">
+                <img src="source/img/line.png" class="img-line">
                 <div class="text-step flex-column">
                   <h5>01</h5>
                   <p>
@@ -238,35 +241,45 @@
           <div class="fields-container flex-f">
             <h1>Contactanos</h1>
             <form action="" class="flex-f">
-              <div class="input flex-column">
-                <label for="">Nombre*</label>
-                <input type="text" class="text-box" required>
+              <div class="nombre-apellido flex">
+                <div class="input flex-column">
+                  <label for="">Nombre*</label>
+                  <input type="text" class="text-box" required>
+                </div>
+                <div class="input flex-column">
+                  <label for="">Apellido*</label>
+                  <input type="text" class="text-box" required>
+                </div>
               </div>
-              <div class="input flex-column">
-                <label for="">Apellido*</label>
-                <input type="text" class="text-box" required>
+              <div class="empresa-cuit flex">
+                <div class="input flex-column">
+                  <label for="">Nombre de la empresa*</label>
+                  <input type="text" class="text-box name" required>
+                </div>
+                <div class="input flex-column">
+                  <label for="">CUIL/CUIT*</label>
+                  <input type="text" class="text-box" required>
+                </div>
               </div>
-              <div class="input flex-column">
-                <label for="">Nombre de la empresa*</label>
-                <input type="text" class="text-box name" required>
+              <div class="email-contacto flex">
+                <div class="input flex-column">
+                  <label for="">E-Mail*</label>
+                  <input type="text" name="" class="text-box" id="" required>
+                </div>
+                <div class="num flex-f">
+                  <div class="flex-column num input cod">
+                    <label for="">(Cod. Área)*</label>
+                    <input type="number" class="cod" required>
+                  </div>
+                  <div class="flex-column num tel input">
+                    <label for="" class="tel">Teléfono*</label>
+                    <input type="number" name="" id="" class="tel" required>
+                  </div>
+                </div>
               </div>
-              <div class="input flex-column">
-                <label for="">CUIL/CUIT*</label>
-                <input type="text" class="text-box" required>
-              </div>
-              <div class="input flex-column">
-                <label for="">E-Mail*</label>
+              <div class="input flex-column msj">
+                <label for="">Quiero saber más acerca...*</label>
                 <input type="text" name="" class="text-box" id="" required>
-              </div>
-              <div class="num flex-f">
-                <div class="flex-column num input">
-                  <label for="">(Cod. Área)*</label>
-                  <input type="number" class="cod" required>
-                </div>
-                <div class="flex-column num input">
-                  <label for="">Teléfono*</label>
-                  <input type="number" name="" id="" class="cel" required>
-                </div>
               </div>
               <input type="button" class="button" value="Enviar">
             </form>
@@ -274,5 +287,39 @@
         </div>
       </section>
     </section>
+    <footer class="flex">
+      <section class="footer-container flex">
+        <div class="info-containerF flex">
+          <div class="logo-footer">
+            <img src="source/img/logo-footer.png" alt="">
+          </div>
+          <div class="contact-footer flex">
+            <div class="footer-p flex-column">
+              <p>CONTACTO</p>
+              <p>+54 11 1234 5678</p>
+              <p>hello@capitalisglobal.com</p>
+            </div>
+            <div class="social-mediaF flex">
+              <div class="circle-form"></div>
+              <div class="circle-form"></div>
+              <div class="circle-form"></div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-footer flex">
+          <ul class="menuF-1 flex">
+            <li>Home</li>
+            <li>Quienes somos</li>
+            <li>Como funciona</li>
+            <li>Contactanos</li>
+          </ul>
+          <ul class="menuF-1 flex">
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </section>
+      <p>©2025. All rights reserved.</p>
+    </footer>
   </body>
 </html>
