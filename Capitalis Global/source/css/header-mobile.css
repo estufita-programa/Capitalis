@@ -1,0 +1,62 @@
+.btn-contact {
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: var(--button-primary);
+  border: solid 2px var(--button-primary);
+}
+
+footer {
+  gap: 45px;
+  padding-top: 74px;
+  padding-bottom: 54px;
+  justify-content: center;
+  background-color: var(--background-footer);
+}
+footer > p {
+  color: var(--background-primary);
+}
+.footer-container {
+  gap: 45px;
+  padding: 0 30px;
+}
+.info-containerF {
+  gap: 48px;
+}
+.contact-footer {
+  gap: 10px;
+  flex-direction: column;
+  color: var(--background-primary);
+}
+.footer-p,
+.menuF-1 {
+  gap: 10px;
+}
+.social-mediaF {
+  gap: 48px;
+}
+.circle-form {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--logo);
+  border: 2px solid var(--background-secondary);
+}
+.menu-footer {
+  gap: 48px;
+  flex-direction: column;
+}
+.menuF-1 {
+  flex-direction: column;
+}
+.menu-footer > ul {
+  list-style: none;
+  color: var(--background-primary);
+}
+.menu-footer > ul > li,
+footer > p {
+  text-transform: uppercase;
+}
+footer {
+  margin-top: -20px;
+  position: relative;
+}
