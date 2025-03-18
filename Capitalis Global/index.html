@@ -1,48 +1,278 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="source/css/root.css">
-        <link rel="stylesheet" href="source/css/style.css">
-        <link rel="stylesheet" href="source/css/header.css">
-        <title>Capitalis Global</title>
-    </head>
-    <body>
-        <header>
-            <section class="logo--section">
-                <div class="logo">
-                    <img src="source/img/logo.png" alt="Logo de Capitalis Global">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="source/css/mobile.css" />
+    <link rel="stylesheet" href="source/css/root.css" />
+    <link rel="stylesheet" href="source/css/desktop.css" />
+    <link rel="stylesheet" href="source/css/header-mobile.css" />
+    <title>Capitalis Global</title>
+  </head>
+  <body>
+    <header>
+      <section class="header-container">
+        <div class="menu--logo flex">
+          <button class="btn-mobile">☰</button>
+          <section class="logo--section">
+            <div class="logo">
+              <img src="source/img/logo.png" alt="Logo de Capitalis Global" />
+            </div>
+          </section>
+        </div>
+        <button class="contacto">CONTÁCTANOS</button>
+        <!-- Menú desktop -->
+        <!-- <nav class="m-desktop">
+          <ul>
+            <li>Quiénes somos</li>
+            <li>Como funciona</li>
+          </ul>
+        </nav> -->
+        <!-- Menú mobile -->
+        <!-- <nav class="m-m flex" id="mobile-menu">
+          <a href="#">QUIÉNES SOMOS</a>
+          <a href="#">CÓMO FUNCIONA</a>
+        </nav> -->
+      </section>
+    </header>
+    <section class="container">
+      <main>
+        <div class="bg">
+          <img src="source/img/ISO-L.png" class="mobile-ISO" alt="" />
+          <img src="source/img/ISO-L.png" class="desktop-ISO" alt="" />
+        </div>
+        <div class="main-content flex-column-center">
+          <section class="main-container flex-column-center">
+            <div class="text-container flex-column-center text-center">
+              <h1>Optimizá tu recaudación y centralizá tus pagos</h1>
+              <h4>Gestión eficite, segura y sin complicaciones</h4>
+            </div>
+            <a href="" class="button-primary">Quiero saber más</a>
+          </section>
+          <section class="trust-container flex-column-center">
+            <h5>Confían en nosotros</h5>
+            <div class="logo-container flex">
+              <div class="marcas logo1"></div>
+              <div class="marcas logo2"></div>
+              <div class="marcas logo3"></div>
+            </div>
+          </section>
+        </div>
+        <div class="bg">
+          <img src="source/img/ISO-R.png" class="desktop-ISO" alt="" />
+        </div>
+      </main>
+
+      <!-- About -->
+      <section class="about flex">
+        <div class="about-container flex">
+          <div class="overline overline-about flex-center">
+            <div class="circle circle-about"></div>
+            <p>¿Quiénes somos?</p>
+          </div>
+          <div class="text-about flex-column">
+            <h2>
+              En Capitalis Global, transformamos la manera en que las empresas
+              gestionan sus ingresos.
+            </h2>
+            <h4>
+              Nos especializamos en la recaudación y administración de pagos,
+              asegurando transacciones fluidas y confiables.
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section class="benefits flex">
+        <div class="benefits-container flex">
+          <div class="card-container flex">
+            <div class="card-feature flex-column">
+              <div class="card-content flex-f">
+                <div class="circle-benefits"></div>
+                <div class="text-benefits flex-column">
+                  <h5>Cobros <br />simplificados</h5>
+                  <p>Todos tus pagos en un solo lugar, sin complicaciones.</p>
                 </div>
-            </section>
-            <nav>
-                <ul>
-                    <li>Quiénes somos</li>
-                    <li>Como funciona</li>
-                    <a href="#"><li>Contactanos</li></a>
-                </ul>
-            </nav>
-        </header>
-        <section class="container-body">
-            <main>
-                <div class="ISO">
-                    <img src="source/img/ISO-L.png" alt="">
+              </div>
+            </div>
+            <div class="card-feature flex-column">
+              <div class="card-content flex-f">
+                <div class="circle-benefits circle-benefits-2"></div>
+                <div class="text-benefits flex-column">
+                  <h5>Múltiples métodos de <br />recadudación</h5>
+                  <p>
+                    Acepta transferencias, cheques, postnets y efectivo con
+                    total <br />seguridad.
+                  </p>
                 </div>
-                <div class="hero-container">
-                    <div class="title-container">
-                        <h1>Optimizá tu recaudación y centralizá tus pagos</h1>
-                    </div>
-                    <div class="secondary-container">
-                        <h2>Gestión eficite, segura y sin complicaciones</h2>
-                    </div>
-                    <div class="button-primary">
-                        <p>Quiero saber más</p>
-                    </div>
+              </div>
+            </div>
+            <div class="card-feature flex-column">
+              <div class="card-content flex-f">
+                <div class="circle-benefits circle-benefits-3"></div>
+                <div class="text-benefits flex-column">
+                  <h5>Gestión eficiente <br />de pagos</h5>
+                  <p>
+                    Recibe, administra y distribuye tus ingresos sin esfuerzos.
+                  </p>
                 </div>
-                <div class="ISO ISO-2">
-                    <img src="source/img/ISO-R.png" alt="">
+              </div>
+            </div>
+            <div class="card-feature flex-column">
+              <div class="card-content flex-f">
+                <div class="circle-benefits"></div>
+                <div class="text-benefits flex-column">
+                  <h5>Seguridad y respaldo bancario</h5>
+                  <p>Operamos con infraestructura confiable y regulada.</p>
                 </div>
-            </main>
-        </section>
-    </body>
+              </div>
+            </div>
+          </div>
+          <a href="" class="button-primary button-benefits">Contactanos →</a>
+        </div>
+      </section>
+
+      <!-- Fuctions -->
+      <section class="functions flex">
+        <div class="functions-container flex">
+          <div class="overline overline-about flex-center">
+            <div class="circle circle-about"></div>
+            <p>¿Quiénes somos?</p>
+          </div>
+          <div class="text-functions flex-column">
+            <h2>
+              Te ofrecemos una solución integral para la recaudación de pagos,
+              adaptado a las necesidades de tu empresa.
+            </h2>
+            <a href="" class="btn-functions flex"
+              >Empezar ahora <img src="source/img/btn.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Infography -->
+      <section class="infography">
+        <div class="container-infography">
+          <div class="step step-1 flex-f">
+            <div class="circle-info">
+              <img src="source/img/step-1-m.png" alt="" class="circle-info-m" />
+              <img src="source/img/step-1.png" alt="" class="circle-info-d" />
+            </div>
+            <div class="step-container">
+              <div class="card-step flex-f">
+                <img src="source/img/line.png" alt="">
+                <div class="text-step flex-column">
+                  <h5>01</h5>
+                  <p>
+                    Recibimos tu dinero a través de múltiples canales de pago
+                    <ul>
+                      <li>Transferencias CVU</li>
+                      <li>Cheques y eCheqs</li>
+                      <li>Posnets bancarios</li>
+                      <li>
+                        Pagos
+                      en efectivo</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line flex-center"><img src="source/img/line.png" alt="" class="m"><img src="source/img/Line-h.png" alt="" class="d"></div>
+          <div class="step step-2 flex-center">
+            <div class="circle-info">
+              <img src="source/img/step-2.png" alt="" class="circle-info-m step-2" />
+              <img src="source/img/step-2.png" alt="" class="circle-info-d step-2" />
+            </div>
+            <div class="step-container step-2-container">
+              <div class="card-step flex-f">
+                <img src="source/img/line.png" alt="" id="line-2">
+                <div class="text-step text-step2 .text-step2b flex-column">
+                  <h5>02</h5>
+                  <p>Centralizamos y gestionamos los fondos, asegurando un flujo financiero eficiente y accesible.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line flex-center"><img src="source/img/line.png" alt="" class="m"><img src="source/img/Line-h.png" alt="" class="d"></div>
+          <div class="step step-3 flex-f">
+            <div class="circle-info">
+              <img src="source/img/step-3v.png" alt="" class="circle-info-m" />
+              <img src="source/img/step-3.png" alt="" class="circle-info-d" />
+            </div>
+            <div class="step-container step-2-container">
+              <div class="card-step flex-f">
+                <img src="source/img/line.png" alt="">
+                <div class="text-step text-step2 flex-column">
+                  <h5>03</h5>
+                  <p>Pagamos a tus proveedores, empleados y demás obligaciones, facilitando la administración de tu negocio.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacto flex-f">
+        <div class="container-contacto flex-f">
+          <div class="left-column">
+            <div class="info-container flex-column">
+              <div class="contact-form flex-f">
+                <div class="circle-form"></div>
+                <p><b>Nuestro Whatsapp</b><br/>
+                  +54 11 1234 5678</p>
+              </div>
+              <div class="contact-form flex-f">
+                <div class="circle-form"></div>
+                <p><b>Nuestro E-mail</b><br/>
+                  hello@capitalisglobal.com</p>
+              </div>
+            </div>
+            <div class="social-media flex-f">
+              <div class="circle-form"></div>
+              <div class="circle-form"></div>
+              <div class="circle-form"></div>
+            </div>
+          </div>
+          <div class="fields-container flex-f">
+            <h1>Contactanos</h1>
+            <form action="" class="flex-f">
+              <div class="input flex-column">
+                <label for="">Nombre*</label>
+                <input type="text" class="text-box" required>
+              </div>
+              <div class="input flex-column">
+                <label for="">Apellido*</label>
+                <input type="text" class="text-box" required>
+              </div>
+              <div class="input flex-column">
+                <label for="">Nombre de la empresa*</label>
+                <input type="text" class="text-box name" required>
+              </div>
+              <div class="input flex-column">
+                <label for="">CUIL/CUIT*</label>
+                <input type="text" class="text-box" required>
+              </div>
+              <div class="input flex-column">
+                <label for="">E-Mail*</label>
+                <input type="text" name="" class="text-box" id="" required>
+              </div>
+              <div class="num flex-f">
+                <div class="flex-column num input">
+                  <label for="">(Cod. Área)*</label>
+                  <input type="number" class="cod" required>
+                </div>
+                <div class="flex-column num input">
+                  <label for="">Teléfono*</label>
+                  <input type="number" name="" id="" class="cel" required>
+                </div>
+              </div>
+              <input type="button" class="button" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
 </html>
