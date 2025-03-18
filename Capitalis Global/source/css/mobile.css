@@ -1,0 +1,284 @@
+header {
+  display: flex;
+  padding: 17.25px 21px;
+}
+.logo > img {
+  max-width: 54.12px;
+  max-height: 41.5px;
+}
+.m-desktop,
+.tablet-ISO {
+  display: none;
+}
+.menu--logo {
+  gap: 32px;
+}
+button.contacto {
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: var(--button-primary);
+  background-color: transparent;
+  border: solid 2px var(--button-primary);
+}
+
+/* main content */
+main {
+  gap: 72px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.bg {
+  margin-top: -15px;
+}
+.bg > img.mobile-ISO {
+  margin: -65px;
+  width: 150px;
+  transform: rotate(90deg);
+}
+.bg > img.desktop-ISO {
+  display: none;
+}
+.main-content {
+  gap: 72px;
+}
+.main-container {
+  gap: 48px;
+}
+.text-container {
+  gap: 52px;
+}
+.text-container > h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.button-primary {
+  color: black;
+  padding: 15px 40px;
+  border-radius: 10px;
+  background-color: var(--button-primary);
+}
+.trust-container {
+  gap: 32px;
+}
+.logo-container {
+  gap: 32px;
+  justify-content: center;
+}
+.marcas {
+  width: 188px;
+  height: 56px;
+  border-radius: 5px;
+  background-color: var(--background-form);
+}
+
+/* About */
+.about,
+.functions {
+  padding: 77px 0;
+  border-radius: 5px;
+  flex-flow: column wrap;
+  background-color: var(--background-secondary);
+}
+.about-container,
+.functions-container {
+  gap: 200px;
+  padding: 0 18px;
+  flex-flow: column wrap;
+}
+.overline {
+  gap: 31px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--headling-four);
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--headling-four);
+}
+.text-about,
+.text-functions {
+  gap: 32px;
+  color: var(--background-primary);
+}
+
+/* Benefits */
+.benefits {
+  padding: 64px 0;
+}
+.benefits-container {
+  gap: 50px;
+  padding: 0 18px;
+  justify-content: center;
+}
+.card-container {
+  gap: 23px;
+  justify-content: center;
+}
+.card-feature {
+  width: 435px;
+  height: 208px;
+  padding: 48px 23px;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: var(--background-primary);
+}
+.card-content {
+  gap: 56px;
+}
+.circle-benefits {
+  width: 75px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--button-primary);
+}
+.circle-benefits-2,
+.circle-benefits-3 {
+  width: 85px;
+}
+.text-benefits {
+  gap: 16px;
+}
+.text-benefits > p {
+  color: var(--text);
+}
+.button-benefits {
+  min-width: 432px;
+  min-height: 54px;
+  text-align: center;
+}
+
+/* Functions */
+.functions {
+  padding: 71px 0;
+  background-color: transparent;
+}
+.text-functions {
+  color: var(--background-footer);
+}
+.btn-functions {
+  gap: 12px;
+  align-items: center;
+  color: var(--background-footer);
+}
+
+/* Infography */
+.container-infography {
+  padding: 0 24px 68px 24px;
+}
+.step {
+  gap: 50px;
+  align-items: flex-end;
+}
+.step-2 {
+  height: 160px;
+  align-items: flex-start;
+}
+.circle-info {
+  gap: 50px;
+}
+.circle-info > img.circle-info-m {
+  min-width: 164px;
+  height: 247px;
+}
+.circle-info > img.circle-info-d,
+.d {
+  display: none;
+}
+.card-step {
+  gap: 33px;
+  align-items: flex-end;
+}
+.text-step {
+  gap: 26px;
+}
+.text-step > h5 {
+  font-weight: bolder;
+  color: var(--headling-terciary);
+}
+.text-step > ul {
+  list-style-position: inside;
+}
+.line {
+  width: 38%;
+  justify-content: center;
+}
+.line > img {
+  height: 140px;
+}
+.circle-info > img.step-2 {
+  width: 166px;
+  height: 166px;
+}
+.card-step > img,
+.step-2-container {
+  height: 230px;
+}
+
+/* contacto */
+/* .contacto {
+  padding: 72px 20px;
+} */
+.fields-container {
+  border-radius: 5px;
+  padding: 72px 20px;
+  background-color: var(--background-form);
+}
+.left-column {
+  display: none;
+}
+.fields-container,
+form {
+  gap: 58px;
+  flex-direction: column;
+}
+.fields-container > h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+form,
+.nombre-apellido,
+.empresa-cuit,
+.email-contacto {
+  gap: 22px;
+  width: 100%;
+}
+.input > label {
+  color: var(--text);
+}
+.input > input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--background-footer);
+}
+.num {
+  column-gap: 22px;
+}
+.num > input:nth-child(1),
+.cod {
+  width: 98px;
+}
+.text-box {
+  width: 440px;
+}
+.cel {
+  width: 320px;
+}
+.msj {
+  height: 85px;
+  justify-content: space-between;
+}
+
+input.button {
+  border: none;
+  padding: 15px 0;
+  font-size: 16px;
+  margin-top: 55px;
+  line-height: 24px;
+  border-radius: 10px;
+  color: var(--background-primary);
+  background-color: var(--background-secondary);
+}
