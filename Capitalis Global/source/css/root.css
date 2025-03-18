@@ -1,29 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd-Roman', sans-serif;
-    src: url('../font/HelveticaNeueLTStd-Roman.otf');
+  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
+  src: url("../font/HelveticaNeueLTStd-Roman.otf");
 }
-:root{
-    /* BOTONES */
-    --button-primary: #3FE396;
-    /* FONDOS */
-    --background-primary: #EFF2EB;
-    --background-secondary: #3C3E3C;
-    --background-footer: #1A1C1A;
-    --background-form: #CFD2CC;
-    /* TEXTOS */
-    --headling-terciary: #5A5D59;
-    --headling-four: #35B276;
+:root {
+  /* BOTONES */
+  --button-primary: #3fe396;
+  /* FONDOS */
+  --background-body: #e0e3dd;
+  --background-primary: #eff2eb;
+  --background-secondary: #3c3e3c;
+  --background-footer: #1a1c1a;
+  --background-form: #cfd2cc;
+  --logo: #d9d9d9;
+  /* TEXTOS */
+  --text: #999c97;
+  --headling-terciary: #5a5d59;
+  --headling-four: #35b276;
 }
-body{
-    background-color: var(--background-primary);
-    display: grid;
-    justify-content: center;
+body {
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  background-color: var(--background-body);
+  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
 }
-a{
-    text-decoration: none;
+header {
+  background-color: var(--background-secondary);
+}
+.container {
+  z-index: 99;
+  position: relative;
+}
+.header-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo > img {
+  max-width: 54.12px;
+  max-height: 41.5px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-f {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+}
+.flex-column-center {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
 }
