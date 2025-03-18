@@ -1,0 +1,113 @@
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  main {
+    gap: 0;
+    padding: 120px 0;
+    grid-template-columns: 140px 452px 140px;
+  }
+  .text-container {
+    flex-wrap: nowrap;
+  }
+  .text-container > h1 {
+    font-size: 72px;
+    line-height: 80px;
+  }
+  .text-container > h4 {
+    width: 580px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .logo-container {
+    flex-wrap: nowrap;
+  }
+  .bg > img.desktop-ISO {
+    display: none;
+  }
+  .bg > img.tablet-ISO {
+    display: block;
+  }
+  .about-container,
+  .functions-container {
+    gap: 200px;
+    flex-flow: column wrap;
+  }
+
+  .container-infography {
+    flex-direction: column;
+  }
+  .step-container {
+    padding-top: 0;
+  }
+  .step {
+    gap: 50px;
+    flex-direction: row;
+  }
+  img.img-line {
+    height: 270px;
+  }
+  .step-2 {
+    height: 215px;
+  }
+  .step-3 {
+    align-items: flex-start;
+  }
+  .step-2-container {
+    padding-top: 10px;
+  }
+  .circle-info > img.circle-info-m {
+    width: 216px;
+    height: 325px;
+  }
+  .circle-info > img.step-2 {
+    width: 216px;
+    height: 216px;
+  }
+  .circle-info > img.circle-info-m,
+  img.m {
+    display: block;
+  }
+  .circle-info > img.circle-info-d,
+  .d {
+    display: none;
+  }
+  .card-step,
+  .card-step > img {
+    align-items: flex-end;
+  }
+  .line > img {
+    height: 50px;
+  }
+
+  .left-column {
+    display: none;
+  }
+  .contacto {
+    padding: 50px 31px;
+    border-radius: 30px;
+    justify-content: center;
+  }
+  .container-contacto {
+    width: 705px;
+  }
+  .fields-container {
+    border-radius: 30px;
+    padding: 85.5px 45.5px;
+  }
+  /* .nombre-apellido,
+  .empresa-cuit,
+  .email-contacto {
+    flex-direction: column;
+  } */
+  form,
+  .nombre-apellido,
+  .empresa-cuit,
+  .email-contacto {
+    row-gap: 22px;
+    column-gap: 24px;
+  }
+  .msj {
+    width: 614px;
+  }
+  input.button {
+    width: 615px;
+  }
+}
