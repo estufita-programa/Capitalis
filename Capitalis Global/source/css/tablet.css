@@ -1,8 +1,13 @@
-@media screen and (min-width: 750px) and (max-width: 900px) {
+@media screen and (min-width: 750px) and (max-width: 1117px) {
   main {
     gap: 0;
-    padding: 120px 0;
-    grid-template-columns: 140px 452px 140px;
+    display: grid;
+    padding: 120px 0;        
+    grid-template-columns: 150px 450px 150px;
+/*140px 452px 140px*/
+  }
+  .main-content{
+    align-content: center;
   }
   .text-container {
     flex-wrap: nowrap;
@@ -19,26 +24,36 @@
   .logo-container {
     flex-wrap: nowrap;
   }
-  .bg > img.desktop-ISO {
+  .bg > img.desktop-ISO, .bg > img.mobile-ISO {
     display: none;
   }
   .bg > img.tablet-ISO {
     display: block;
+  }
+  .about-container{
+  
+    padding: 77px;
+  }  
+  .about{
+    margin: 0 30px;
   }
   .about-container,
   .functions-container {
     gap: 200px;
     flex-flow: column wrap;
   }
-
+  .text-functions{
+    max-width: 38.25rem;
+  }
   .container-infography {
     flex-direction: column;
   }
-  .step-container {
-    padding-top: 0;
+  .text-step{
+    max-width: 216px;
   }
   .step {
     gap: 50px;
+        justify-content: center;
     flex-direction: row;
   }
   img.img-line {
@@ -69,14 +84,36 @@
   .d {
     display: none;
   }
-  .card-step,
+  .card-feature{
+    height: 100%;
+    max-width: 18.438rem;
+    max-height: 20.5rem; 
+  }
+  .card-content{
+    flex-direction: column;
+  }
+  .card-step{
+    max-width: 216px;
+    align-items: center;
+  }
   .card-step > img {
     align-items: flex-end;
+  }
+  .line{
+    transform: translateX(9.5rem);
   }
   .line > img {
     height: 50px;
   }
-
+.button-benefits{
+  max-width: 27rem;  
+}
+  .button-benefits:hover{
+    max-width: 28rem;
+  }
+  .text-benefits{
+    width: 15.25rem;
+  }
   .left-column {
     display: none;
   }
@@ -104,10 +141,37 @@
     row-gap: 22px;
     column-gap: 24px;
   }
+  .input, .input > label{
+    width: 48%;
+  }
+  .tel{
+    max-width: 170px;
+  }
+  .nombre-apellido, .empresa-cuit, .email-contacto{
+    flex-direction: row;
+  }
   .msj {
     width: 614px;
   }
   input.button {
     width: 615px;
+  }
+  footer{
+    justify-content: flex-start;
+    padding: 4.625rem 1.3125rem 3.375rem 1.3125rem;
+  }
+  .footer-container{
+    padding: 0;
+    width: 100%;
+  }
+  .info-containerF{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .menu-contactF{
+    flex-direction: row-reverse;
+  }
+  .firma{
+    margin: 0 auto;
   }
 }
