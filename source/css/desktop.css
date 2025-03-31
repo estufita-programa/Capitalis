@@ -28,7 +28,7 @@
   }
   .main-content {
     gap: 72px;
-    padding-top: 10px;
+        transform: translateY(5.8rem);
   }
   .marcas {
     width: calc(25% - 20px); /* Para 4 imágenes en la primera fila */
