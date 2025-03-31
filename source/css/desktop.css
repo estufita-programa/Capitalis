@@ -31,7 +31,13 @@
     padding-top: 10px;
   }
   .marcas {
-    width: 188px;
+    width: calc(25% - 20px); /* Para 4 imágenes en la primera fila */
+    text-align: center;
+  }
+
+  .marcas:nth-child(n + 5) {
+    /* A partir del 5to logo */
+    width: calc(33.33% - 20px); /* Para centrar los 3 de abajo */
   }
   /* About */
   .about,
