@@ -3,7 +3,7 @@
     gap: 0;
     display: grid;
     padding: 120px 0;        
-    grid-template-columns: 150px 700px 150px;
+    grid-template-columns: 150px 450px 150px;
 /*140px 452px 140px*/
   }
   .main-content{
