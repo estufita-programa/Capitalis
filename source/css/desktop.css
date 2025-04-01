@@ -1,11 +1,12 @@
 @media screen and (min-width: 1025px) {
   main {
-    top: 101px;
+    top: 6.313rem;
     display: grid;
     align-items: center;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: 360px 662px 360px;
+    padding-bottom: 15rem;
+    grid-template-columns: 22.5rem 41.375rem 22.5rem;
   }
   .bg {
     width: 100%;
