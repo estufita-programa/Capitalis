@@ -99,7 +99,7 @@ a.contacto-mobile:hover {
   }
 }
 
-.nav__link {
+.decoration_link {
   display: flex;
   font-weight: 300;
   font-size: 0.875rem;
@@ -111,7 +111,7 @@ a.contacto-mobile:hover {
   position: relative; /* Necesario para que el ::after se posicione bien */
 }
 
-.nav__link::after {
+.decoration_link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -124,7 +124,7 @@ a.contacto-mobile:hover {
   transition: transform 0.3s ease-in-out;
 }
 
-.nav__link:hover::after {
+.decoration_link:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
