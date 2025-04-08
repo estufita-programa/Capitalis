@@ -97,7 +97,7 @@ a.contacto-mobile:hover {
     background-color: var(--background-secondary);
     padding-top: 1rem;
   }
-  ul.nav__list > li:nth-child(3){
+  ul.nav__list > li:nth-child(3) > a{
     position: relative;
     top: 10px;
   }
