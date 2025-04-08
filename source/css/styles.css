@@ -49,7 +49,7 @@ a.contacto-mobile {
 }
 a.contacto-desktop:hover,
 a.contacto-mobile:hover {
-  color: var(--background-primary);
+  color: var(--background-secondary);
   background-color: var(--button-primary);
 }
 .nav__toggle {
