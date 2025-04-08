@@ -97,10 +97,6 @@ a.contacto-mobile:hover {
     background-color: var(--background-secondary);
     padding-top: 1rem;
   }
-  .nav__link{
-    position: relative;
-    top: 10px;
-  }
 }
 
 .decoration_link {
@@ -250,6 +246,10 @@ footer > p {
     padding: 0;
     justify-content: initial;
     column-gap: 0.25rem;
+  }
+  .contacto-mobile{
+    top: 10px;
+    position: relative;
   }
   .nav__link:hover {
     background-color: transparent;
