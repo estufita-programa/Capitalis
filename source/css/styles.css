@@ -316,6 +316,7 @@ footer > p {
     text-align: center;
   }
   .footer-container {
+    width: 100%;
     padding: 0px;
   }
   .info-containerF {
